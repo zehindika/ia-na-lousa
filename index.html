@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matemática Anos Finais com IA | Coleção IA na Lousa</title>
+<meta name="description" content="Prompts prontos para as 121 habilidades da BNCC de Matemática do 6º ao 9º ano. Plano de aula, lista e prova em minutos, em qualquer IA gratuita.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#1F3D36;--g2:#2A5148;--y:#F2C94C;--c:#F4F1E8;--t:#1d2a27}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Poppins,system-ui,sans-serif;color:var(--t);background:var(--c);line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.btn{display:inline-block;background:var(--y);color:var(--g);font-weight:700;font-size:1.1rem;padding:16px 30px;border-radius:12px;text-decoration:none;box-shadow:0 6px 0 #c9a22e;transition:transform .1s}
+.btn:hover{transform:translateY(2px);box-shadow:0 4px 0 #c9a22e}
+.small{font-size:.85rem;opacity:.8;margin-top:10px}
+header{background:var(--g);color:var(--c);padding:56px 0 64px;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:32px 32px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.tag{display:inline-block;border:1px solid var(--y);color:var(--y);border-radius:20px;padding:4px 14px;font-size:.8rem;font-weight:600;letter-spacing:.06em;margin-bottom:18px}
+h1{font-size:2.6rem;line-height:1.15;font-weight:800;margin-bottom:18px}
+h1 span{color:var(--y)}
+header p.sub{font-size:1.15rem;opacity:.92;margin-bottom:28px}
+.cover{width:100%;max-width:380px;border-radius:14px;box-shadow:0 20px 40px rgba(0,0,0,.35);justify-self:center}
+section{padding:64px 0}
+h2{font-size:1.9rem;line-height:1.2;color:var(--g);margin-bottom:12px;font-weight:800}
+.lead{font-size:1.05rem;margin-bottom:30px;max-width:720px}
+.pain{background:#fff}
+.pain ul{list-style:none;display:grid;gap:12px;max-width:760px}
+.pain li{padding:14px 18px;background:var(--c);border-left:5px solid var(--y);border-radius:8px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border-radius:14px;padding:24px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.num{width:42px;height:42px;border-radius:50%;background:var(--g);color:var(--y);font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.card h3{color:var(--g);margin-bottom:6px;font-size:1.1rem}
+.dark{background:var(--g);color:var(--c)}
+.dark h2{color:var(--y)}
+.items{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.item{background:var(--g2);border-radius:12px;padding:18px 20px}
+.item b{color:var(--y)}
+.prev{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.prev img{width:100%;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.15);background:#fff}
+.prompt{background:#14231f;color:#e9f3ee;font-family:ui-monospace,Menlo,monospace;font-size:.92rem;padding:22px;border-radius:12px;white-space:pre-wrap;margin-top:24px;border-left:5px solid var(--y)}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:760px;margin:0 auto}
+.pbox{background:#fff;border-radius:16px;padding:28px;text-align:center}
+.pbox.best{background:var(--g);color:var(--c);border:3px solid var(--y)}
+.old{font-size:2rem;font-weight:700;text-decoration:line-through;opacity:.5}
+.new{font-size:3rem;font-weight:800;color:var(--y)}
+.center{text-align:center}
+.guar{display:flex;gap:24px;align-items:center;background:#fff;border-radius:16px;padding:28px;max-width:760px;margin:0 auto}
+.seal{flex:0 0 110px;height:110px;border-radius:50%;background:var(--y);color:var(--g);font-weight:800;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1;text-align:center}
+.seal b{font-size:2.2rem}
+details{background:#fff;border-radius:12px;padding:18px 22px;margin-bottom:12px;max-width:760px}
+summary{font-weight:700;color:var(--g);cursor:pointer}
+details p{margin-top:10px}
+footer{background:var(--g);color:var(--c);text-align:center;padding:48px 0 30px}
+footer .legal{font-size:.8rem;opacity:.6;margin-top:30px}
+@media(max-width:800px){h1{font-size:1.9rem}.hero,.steps,.items,.prev,.price{grid-template-columns:1fr}.cover{max-width:260px}.guar{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="wrap hero">
+  <div>
+   <div class="tag">COLEÇÃO IA NA LOUSA</div>
+   <h1>Pare de perder o domingo planejando aula de <span>Matemática</span></h1>
+   <p class="sub">Prompts prontos para as 121 habilidades da BNCC do 6º ao 9º ano. Copie, cole na IA gratuita que você já usa e tenha plano de aula, lista e prova em minutos.</p>
+   <a class="btn" href="https://pay.hotmart.com/T108492788P">Quero o pacote por R$ 47</a>
+   <p class="small">Acesso imediato · Garantia de 7 dias · Funciona no ChatGPT, Gemini, Claude e Copilot</p>
+  </div>
+  <img class="cover" src="capa.png" alt="Capa do pacote Matemática Anos Finais com IA">
+ </div>
+</header>
+
+<section class="pain">
+ <div class="wrap">
+  <h2>Se você dá aula de Matemática no Fundamental II, conhece essa rotina</h2>
+  <ul>
+   <li>Três ou quatro turmas de séries diferentes, cada uma com seu planejamento.</li>
+   <li>Lista de exercícios montada de madrugada, gabarito feito na mão.</li>
+   <li>Já tentou usar IA, mas a resposta veio genérica, fora da BNCC e com conta errada.</li>
+   <li>O fim de semana, que era para descansar, vira dia de preparar aula.</li>
+  </ul>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Como funciona, em 3 passos</h2>
+  <p class="lead">Não precisa entender de tecnologia. Se você sabe copiar e colar, já sabe usar.</p>
+  <div class="steps">
+   <div class="card"><div class="num">1</div><h3>Apresente sua turma</h3><p>Cole o prompt mestre uma vez e conte à IA sobre sua turma, sua rede e seu tempo de aula.</p></div>
+   <div class="card"><div class="num">2</div><h3>Escolha a habilidade</h3><p>Ache na tabela a habilidade da BNCC que você vai trabalhar. O tema e o contexto já estão prontos.</p></div>
+   <div class="card"><div class="num">3</div><h3>Copie e receba</h3><p>Cole o prompt e receba o material pronto para ajustar: plano, lista, jogo ou prova.</p></div>
+  </div>
+  <div class="prompt">Exemplo de prompt do material:
+
+Meus alunos do 6º ano somam frações assim: 1/2 + 1/3 = 2/5.
+Não quero que você me dê a regra do mínimo múltiplo comum.
+Quero uma sequência de 3 aulas que faça o aluno perceber sozinho por que 2/5
+não pode ser a resposta, usando tiras de papel, dobraduras ou desenho, e só
+então chegar ao procedimento.
+Para cada aula: o que os alunos manipulam, a pergunta que provoca o conflito,
+o que eu registro no quadro e um exercício de saída de 3 minutos.</div>
+ </div>
+</section>
+
+<section class="dark">
+ <div class="wrap">
+  <h2>O que vem no pacote</h2>
+  <p class="lead">Quatro volumes num só PDF de 50 páginas, com tudo organizado habilidade por habilidade.</p>
+  <div class="items">
+   <div class="item"><b>121 habilidades da BNCC</b><br>De EF06MA01 a EF09MA23, do 6º ao 9º ano.</div>
+   <div class="item"><b>5 prompts por habilidade</b><br>Sondagem, plano de aula, lista em 3 níveis com gabarito, jogo ou atividade prática e questões de prova.</div>
+   <div class="item"><b>Contexto e erro típico</b><br>Para cada habilidade, um contexto que engaja e o erro que a turma mais comete.</div>
+   <div class="item"><b>Prompts coringa</b><br>Inclusão, recuperação, devolutiva, prova bimestral e recado para a família.</div>
+   <div class="item"><b>Preparação para avaliações</b><br>Questões no estilo das avaliações externas e simulado de revisão no 9º ano.</div>
+   <div class="item"><b>Lista de conferência</b><br>IA erra conta. Você sabe exatamente onde olhar antes de levar para a sala.</div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Veja por dentro</h2>
+  <p class="lead">Páginas reais do material.</p>
+  <div class="prev">
+   <img src="pg1-01.jpg" alt="Capa interna do pacote" loading="lazy">
+   <img src="pg5-05.jpg" alt="Página com prompts de plano de aula" loading="lazy">
+   <img src="pg7-07.jpg" alt="Página com prompt especial de frações" loading="lazy">
+  </div>
+ </div>
+</section>
+
+<section class="pain">
+ <div class="wrap center">
+  <h2>Pacote completo ou volumes avulsos?</h2>
+  <p class="lead" style="margin-left:auto;margin-right:auto">Os quatro volumes também são vendidos separados por R$ 27 cada.</p>
+  <div class="price">
+   <div class="pbox"><p>4 volumes avulsos</p><div class="old">R$ 108</div></div>
+   <div class="pbox best"><p>Pacote completo</p><div class="new">R$ 47</div><p class="small">pagamento único</p></div>
+  </div>
+  <p style="margin-top:30px"><a class="btn" href="https://pay.hotmart.com/T108492788P">Quero o pacote por R$ 47</a></p>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="guar">
+   <div class="seal"><b>7</b>dias de<br>garantia</div>
+   <div><h2>Risco zero para você</h2><p>Se o material não servir para a sua realidade, peça o reembolso pela própria Hotmart em até 7 dias e receba todo o valor de volta. Sem perguntas.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="pain">
+ <div class="wrap">
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Preciso pagar alguma IA?</summary><p>Não. Os prompts funcionam nas versões gratuitas do ChatGPT, Gemini, Claude e Copilot.</p></details>
+  <details><summary>Serve para escola pública e particular?</summary><p>Sim. No prompt mestre você descreve sua realidade e a IA adapta tudo a ela.</p></details>
+  <details><summary>Como recebo o material?</summary><p>Logo após o pagamento você recebe acesso à área de membros da Hotmart, onde baixa o PDF.</p></details>
+  <details><summary>Dou aula só para uma série. Vale a pena?</summary><p>Se você trabalha com uma série só, pode comprar apenas o volume dela por R$ 27. O pacote compensa para quem dá aula em duas séries ou mais.</p></details>
+  <details><summary>A IA não vai errar?</summary><p>Pode errar, principalmente em conta. Por isso cada volume traz uma lista de conferência com os pontos onde a IA mais falha.</p></details>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <h2 style="color:var(--y)">Planejamento pronto para o ano inteiro</h2>
+  <p style="margin:10px 0 26px">121 habilidades, do 6º ao 9º ano, por R$ 47.</p>
+  <a class="btn" href="https://pay.hotmart.com/T108492788P">Quero o pacote por R$ 47</a>
+  <p class="legal">Coleção IA na Lousa · Produzido por José Claudio dos Santos Júnior · Material criado com apoio de inteligência artificial e revisado pelo autor. Pagamento processado pela Hotmart. © 2026</p>
+ </div>
+</footer>
+
+</body>
+</html>
